@@ -1,6 +1,6 @@
 # NoAutoExposure
 
-A Beat Saber 1.40.8 port of
+A Beat Saber 1.39.1–1.40.8 port of
 [whatdahopper-archive/NoAutoExposure](https://github.com/whatdahopper-archive/NoAutoExposure).
 It disables the bloom-based auto-exposure/global-intensity pass while preserving
 ACES tone mapping by default.
@@ -13,11 +13,11 @@ without restarting Beat Saber.
 
 ## Requirements
 
-- Beat Saber 1.40.8
-- BSIPA 4.3.6 or newer compatible version
-- BeatSaberMarkupLanguage 1.12.5 or newer compatible version
-- SiraUtil 3.2.1 or newer compatible version
-- SongCore 3.15.3 or newer compatible version
+- Beat Saber 1.39.1 through 1.40.8
+- BSIPA 4.3.0 or newer compatible 4.x version
+- BeatSaberMarkupLanguage 1.12.0 or newer compatible 1.x version
+- SiraUtil 3.1.0 or newer compatible 3.x version
+- SongCore 3.14.15 or newer compatible 3.x version
 
 ## Configuration
 
@@ -40,8 +40,8 @@ Disabling it intentionally changes their appearance.
 
 ## Development
 
-The project uses the current SDK-style BSMT layout and targets .NET Framework
-4.7.2. Set `GameDirectory` in the ignored
+The project uses the current SDK-style BSMT layout, targets .NET Framework
+4.7.2, and supports Beat Saber 1.39.1 through 1.40.8. Set `GameDirectory` in the ignored
 `NoAutoExposure/NoAutoExposure.csproj.user` file:
 
 ```xml
